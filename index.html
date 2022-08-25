@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body class="d-flex justify-content-center align-items-center">
+
+    <div class="wrapper d-flex flex-column justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center bg-dark p-5 rounded-5">
+            <h1 class="text-white my-5 fw-bold">SIMPLE CALCULATOR</h1>
+
+            <input type="text" name="num-one" id="num-one" class="rounded py-1">
+            <input type="text" name="num-two" id="num-two" class="rounded py-1">
+            <br><br>
+            <div class="">
+                <input type="radio" name="sign-area" id="box1" value="add" checked><b
+                    class="text-white mx-2 fs-1 ">+</b>
+                <input type="radio" name="sign-area" id="box2" value="subtract"><b class="text-white mx-2 fs-1">-</b>
+                <input type="radio" name="sign-area" id="box3" value="multiply"><b class="text-white mx-2 fs-1">*</b>
+                <input type="radio" name="sign-area" id="box4" value="divide"><b class="text-white mx-2 fs-1">/</b>
+                <br><br>
+            </div>
+            <button class="px-4 py-1 mb-4 rounded-3 bg-warning" type="button" onclick="outcome()">Calculate</button>
+
+            <h1 id="resultArea" class="text-white"></h1>
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="script/bootstrap.js"></script>
+    <script src="script/sctript.js"></script>
+</body>
+
+</html>
